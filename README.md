@@ -1,2 +1,6 @@
 # TEBACOM-Demo
 TEBACOM-ASP.NET-EF6-DescargarProyecto
+
+El proyecto corresponde a un módulo web de tableros académicos para el sistema TEBACOM, orientado a mostrar indicadores institucionales como distribución de alumnado por género, registro de lenguas indígenas y avance de captura de calificaciones por parcial y grado.
+Se implementa como una aplicación web ASP.NET WebForms (.NET Framework) en C#, desarrollada en Microsoft Visual Studio 2022, ya que es el mismo stack tecnológico que utiliza el sistema institucional y facilita la integración con componentes existentes como Entity Framework y ReportViewer. WebForms permite construir rápidamente interfaces con controles de servidor y manejo de estado mediante ViewState y eventos, lo que resulta adecuado para formularios administrativos y reportes.
+Para efectos académicos y de seguridad, el proyecto entregado en GitHub utiliza un repositorio de datos en memoria (listas estáticas) en lugar de conectarse a la base de datos gubernamental real. De esta forma se puede demostrar el uso de POO, capas lógicas, Google Charts y patrones básicos de diseño, sin exponer cadenas de conexión, credenciales ni información sensible. El módulo es funcional de manera local y puede ejecutarse en cualquier entorno de desarrollo con Visual Studio y .NET Framework.
