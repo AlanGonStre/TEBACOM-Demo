@@ -10,12 +10,11 @@ Proyecto demo (académico) basado en un módulo de tablero académico con gráfi
 - ASP.NET WebForms (.NET Framework)
 - C#
 - Entity Framework
-- SQL Server (LocalDB o instancia local) *(opcional si se usa modo demo)*
 - Google Charts
 ## Requisitos
 - Visual Studio 2022
 - .NET Framework (4.7.2)
--## Configuración
+## Configuración
 ### Modo Demo (sin base de datos)
 1. Abrir la solución en Visual Studio.
 2. Ejecutar el proyecto (F5).
